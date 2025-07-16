@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet Us - Chunky Monkeys</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Chunky Monkeys</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="members.html">Meet Us</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <section class="page-title">
+    <h1>Meet Us Individually</h1>
+  </section>
+
+<section class="member-grid">
+  <div class="member-card" onclick="toggleInfo(this)">
+    <div class="image-container">
+      <img src="images/sindu.jpg" alt="Sindu">
+      <div class="overlay">
+        <h3>Sindu</h3>
+      </div>
+    </div>
+    <div class="extra-info">
+      <h4>"Ms. Nanna Oppukodu"</h4>
+      <p>Took a little 2-year break and now chasing her MBBS dreams!Known for having the strictest parents in the group. (And yes, Akshitha hates her 😜) </p>
+    </div>
+  </div>
+
+  <div class="member-card" onclick="toggleInfo(this)">
+    <div class="image-container">
+      <img src="images/navya.jpg" alt="Navya">
+      <div class="overlay">
+        <h3>Navya</h3>
+      </div>
+    </div>
+    <div class="extra-info">
+      <h4>"Ready for anything… Nanna always says okay!"</h4>
+      <p>Pursuing MBBS. Always up for plans, no matter how far she has to travel. Never misses a chance to be with us.</p>
+    </div>
+  </div>
+
+  <div class="member-card" onclick="toggleInfo(this)">
+    <div class="image-container">
+      <img src="images/uday.jpg" alt="Uday">
+      <div class="overlay">
+        <h3>Uday</h3>
+      </div>
+    </div>
+    <div class="extra-info">
+      <h4>"Cutest Driver + Photographer"</h4>
+      <p>Former NCC cadet. Might go for an MBA next. official driver and the paparazzi of our group! Never says no to a photo.</p>
+    </div>
+  </div>
+
+  <div class="member-card" onclick="toggleInfo(this)">
+    <div class="image-container">
+      <img src="images/sanjiv.jpg" alt="Sanju">
+      <div class="overlay">
+        <h3>Sanjiv</h3>
+      </div>
+    </div>
+    <div class="extra-info">
+      <h4>"The moody Culinary Grad"</h4>
+      <p>A culinary graduate who loves Biryani. The first one to leave the city. Reason why this website was built.</p>
+    </div>
+  </div>
+
+  <div class="member-card" onclick="toggleInfo(this)">
+    <div class="image-container">
+      <img src="images/anand.jpg" alt="Anand">
+      <div class="overlay">
+        <h3>Anand</h3>
+      </div>
+    </div>
+    <div class="extra-info">
+      <h4>"Andhagaadu of the group fr!"</h4>
+      <p>Surviving Btech Final year. Bauntad bhaiyya.Chaala bauntad anthe</p>
+    </div>
+  </div>
+
+  <div class="member-card" onclick="toggleInfo(this)">
+    <div class="image-container">
+      <img src="images/rajeev.jpg" alt="Rajeev">
+      <div class="overlay">
+        <h3>Rajeev</h3>
+      </div>
+    </div>
+    <div class="extra-info">
+      <h4>"Hilariously unpredictable when drunk"</h4>
+      <p>Doing B.Tech but majoring in hangovers. Becomes 10x funnier after a drink.</p>
+    </div>
+  </div>
+
+  <div class="member-card" onclick="toggleInfo(this)">
+    <div class="image-container">
+      <img src="images/akshitha.jpg" alt="Akshitha">
+      <div class="overlay">
+        <h3>Akshitha</h3>
+      </div>
+    </div>
+    <div class="extra-info">
+      <h4>"The architect of this Digital Scrapbook"</h4>
+      <p>Trying to graduate Btech without crying. The one who always keeps the group connected. Secretly loves Sindu the most.</p>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+   <p>📧 chunkymonkeysshit@gmail.com</p>
+    <p>📸 @chunky_monkeys</p>
+</footer>
+<script src="script.js"></script>
+<script>
+function toggleInfo(card) {
+    card.classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
+
+
+
